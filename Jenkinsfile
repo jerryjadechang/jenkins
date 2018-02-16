@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Jerry') {
             steps {
-                sh "pwd"; exit 0'
+                sh 'pwd; exit 0'
             }
         }
     }
