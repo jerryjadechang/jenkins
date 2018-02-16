@@ -6,6 +6,11 @@ pipeline {
                 sh 'echo "Fail!"; exit 1'
             }
         }
+        stage('Jerry') {
+            steps {
+                sh "pwd"; exit 0'
+            }
+        }
     }
     post {
         always {
