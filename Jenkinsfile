@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Jerry') {
             steps {
-                sh 'pwd; uname -a; id; env; exit 0'
+                sh 'pwd; uname -a; id; env; touch /tmp/foobar; exit 0'
             }
         }
     }
