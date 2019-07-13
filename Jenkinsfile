@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Jerry') {
             steps {
-                sh 'pwd; uname -a; id; env; touch /tmp/foobar; exit 0'
+                sh 'pwd; uname -a; id; env; touch /var/jenkins_home/foobar; exit 0'
             }
         }
     }
