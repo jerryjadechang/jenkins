@@ -12,7 +12,7 @@ pipeline {
         
         stage('Test') {
             steps {
-                sh 'node --version'
+                sh 'cat /home/Documents/foobar'
             }
         }
         
