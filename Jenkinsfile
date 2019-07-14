@@ -12,7 +12,7 @@ pipeline {
         
         stage('Test') {
             steps {
-                sh 'cat /home/Documents/foobar'
+                sh 'cat /var/jenkins_home/simple-java-maven-app/pom.xml'
             }
         }
         
